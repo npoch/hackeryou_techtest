@@ -23,9 +23,21 @@
             <h3>
                 About you
             </h3>
-            <div class="form">
+            <form action="">
+                <p>First Name</p>
+                <input type="text" name="firstName" id="first-name" placeholder="Jane" required>
+                <p>Last Name</p>
+                <input type="text" name="lastName" id="last-name" placeholder="Doe" required>
+                <p>Type of Book Choice</p>
+                <select name="bookType" id="book-type">
+                    <option value="hardcover">Hardcover</option>
+                    <option value="softcover">softcover</option>
+                    <option value="audio">Audio</option>
+                </select>
+                <p>Phone Number</p>
+                <input type="text" name="phoneNumber" id="phone-number" maxlength="10" pattern="^[0-9]{10}" placeholder="5555555555" required>
 
-            </div>
+            </form>
             <div class="btn">
                 Send
             </div>
