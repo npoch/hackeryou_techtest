@@ -1,3 +1,70 @@
 div {
     border: 1px red solid;
 }
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+
+}
+h4 {
+
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.item {
+}
+.header-left {
+    display: flex;
+    width: 50%;
+}
+.header-left img {
+    width: 100%;
+}
+.header-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.header-right h1 {
+   margin: 1rem; 
+}
+.header-right p {
+    margin: 1rem;
+}
+.header-right h2 {
+    margin: 1rem;
+}
+.header-right form {
+    margin: 1rem;
+}
+.header-right .field-label {
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+.form-container {
+    display: inline-block;
+}
