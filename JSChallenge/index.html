@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="header container">
+        <div class="header-left item">
+            <img src="./assets/books.jpg" alt="Woman lokking at books on shelf">
+        </div>
+        <div class="header-right container item">
+            <h1 class="headline">
+                It's going down for real.
+            </h1>
+            <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <h3>
+                About you
+            </h3>
+            <div class="form-container">
+                <form action="/destination.php">
+                   <div class="name-container">
+                        <div class="fn-container">
+                            <p class="field-label">First Name</p>
+                            <input type="text" name="firstName" id="first-name" placeholder="Jane" size="25" required>
+                        </div>
+                        <div class="ln-container">
+                            <p class="field-label">Last Name</p>
+                            <input type="text" name="lastName" id="last-name" placeholder="Doe" size="25" required>
+                        </div>
+                    </div>
+                    <p class="field-label">Type of Book Choice</p>
+                    <select name="bookType" id="book-type">
+                        <option value="hardcover">Hardcover</option>
+                        <option value="softcover">softcover</option>
+                        <option value="audio">Audio</option>
+                    </select>
+                    <p class="field-label">Phone Number</p>
+                    <input type="text" name="phoneNumber" id="phone-number" maxlength="10" pattern="^[0-9]{10}" placeholder="5555555555" size="50" required>
+                    <input type="submit" value="Send" name="Send" id="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+/* div {
+    border: 1px red solid;
+} */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 75px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+
+}
+h4 {
+
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.item {
+}
+.header-left {
+    display: flex;
+    width: 50%;
+}
+.header-left img {
+    width: 100%;
+}
+.header-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.header-right h1 {
+   margin: 2rem; 
+}
+.header-right p {
+    margin: 0 2rem 2rem 2rem;
+}
+.header-right h2 {
+    margin: 2rem;
+}
+.header-right h3 {
+    margin: 0 2rem;
+}
+.header-right form {
+    margin: 2rem;
+}
+.header-right .field-label {
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+.field-label{
+    font-weight: bold;
+}
+input {
+    width: 90%;
+    margin-right: 1rem;
+    border: black 1px solid;
+    border-radius: 4px;
+    line-height: 1.7;
+}
+.name-container {
+    display: flex;
+
+}
+.fn-container {
+    width: 50%;
+}
+.ln-container {
+    width: 50%;
+}
+select,
+input#phone-number {
+    width: 95%;
+}
+input#submit-btn {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    width: 15%;
+    background-color: black;
+    color: white;
+}
+/* input#first-name {
+    width: 40%;
+}
+input#last-name {
+    width: 40%;
+    
+} */
