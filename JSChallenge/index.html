@@ -20,17 +20,23 @@
                 It's going down for real.
             </h1>
             <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <h3>
                 About you
             </h3>
             <div class="form-container">
                 <form action="/destination.php">
-                    <p class="field-label">First Name</p>
-                    <input type="text" name="firstName" id="first-name" placeholder="Jane" required>
-                    <p class="field-label">Last Name</p>
-                    <input type="text" name="lastName" id="last-name" placeholder="Doe" required>
+                   <div class="name-container">
+                        <div class="fn-container">
+                            <p class="field-label">First Name</p>
+                            <input type="text" name="firstName" id="first-name" placeholder="Jane" size="25" required>
+                        </div>
+                        <div class="ln-container">
+                            <p class="field-label">Last Name</p>
+                            <input type="text" name="lastName" id="last-name" placeholder="Doe" size="25" required>
+                        </div>
+                    </div>
                     <p class="field-label">Type of Book Choice</p>
                     <select name="bookType" id="book-type">
                         <option value="hardcover">Hardcover</option>
@@ -38,8 +44,8 @@
                         <option value="audio">Audio</option>
                     </select>
                     <p class="field-label">Phone Number</p>
-                    <input type="text" name="phoneNumber" id="phone-number" maxlength="10" pattern="^[0-9]{10}" placeholder="5555555555" required>
-                    <input type="submit" name="Send" id="submit-btn">
+                    <input type="text" name="phoneNumber" id="phone-number" maxlength="10" pattern="^[0-9]{10}" placeholder="5555555555" size="50" required>
+                    <input type="submit" value="Send" name="Send" id="submit-btn">
                 </form>
             </div>
         </div>
